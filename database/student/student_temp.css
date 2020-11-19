@@ -1,0 +1,47 @@
+.cut_layer{
+    cursor: move;
+    position: absolute;
+    z-index: 3;
+    top:0;
+    left:50;  
+    border: 1px solid black;
+}
+
+.cut_img{
+    position:absolute;
+    width: 400px;
+    clip:rect(10px,290px,290px,10px);
+}
+
+.vm{
+    position: absolute;
+    background-color: #fff;
+    filter: alpha(opacity=50);
+    z-index: 2;
+    opacity: .5;
+}
+
+/* disable selection element */
+.modal-content{
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.ve-em .ve-fm {
+    background-color: #fff;
+    border: 1px solid #000;
+    height: 8px;
+    overflow: hidden;
+    width: 8px;
+}
+
+.ve-em {
+    padding: 10px;
+    position: absolute;
+    z-index: 50;
+}

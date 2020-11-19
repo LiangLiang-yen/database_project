@@ -1,0 +1,33 @@
+管理者管理使用者介面
+
+	<script>
+		var student_names = [] 使用者名稱陣列
+		var student_IDs = [] 使用者學號陣列
+		var student_idCards = [] 使用者身分證字號
+		var student_list_content 要載入html的內容
+
+		function student_list_load() 載入學生清單
+
+		window.onload() 頁面剛載入所進行的操作
+		{ 
+			student_list_load() 載入現有的學生資料至使用者資料列表 id="student_list"
+		}
+
+
+		function  add_user() 新增使用者
+		
+		function  del_user() 刪除使用者
+		
+		function  comf() 確認新增
+
+		function  cancel() 取消新增使用者
+	</script>
+
+	<html>
+		
+		<bt id="Add" onclick="add_user()"> 新增使用者按鈕
+		<bt id="Del" onclick="del_user()"> 刪除使用者按鈕
+
+		<ul id="student_list"> 使用者資料列表
+		</ul>		
+	</html>

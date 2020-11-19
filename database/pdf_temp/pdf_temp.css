@@ -1,0 +1,51 @@
+#student_form{
+    width: 1600px;
+    background:black;
+}
+
+.form_title{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    width: 1300px;
+    clear: both;
+}
+.form_head{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-left: 150px;
+}
+.form_head table{
+    font-size: 24px;
+    width: 1050px;
+}
+.form_head tr{
+    width: 1200px;
+    line-height:50px;
+
+}
+.form_body{
+    width: 1300px;
+}
+.question{
+    width: 500px;
+    margin-left: 150px;
+    float: left;
+}
+.question td{
+    font-size: 18px;
+}
+.question tr{
+    line-height:30px;
+}
+.comment{
+    width: 500px;
+    float: left;
+}
+.comment textarea{
+    width: 500px;
+    height: 800px;
+}
+.hid{
+    display: none;
+}

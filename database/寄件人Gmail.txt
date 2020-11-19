@@ -1,0 +1,6 @@
+NFU賃居管理系統
+sendmailnfu@gmail.com
+DbFinalMailSend
+
+test:
+echo "hello word" | sendmail -v xxxxx@gmail.com
